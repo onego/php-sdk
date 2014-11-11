@@ -237,7 +237,7 @@ class OneGoSDK_Impl_SimpleAPI implements OneGoSDK_Interface_SimpleAPI
             $dto = $this->api->getTransaction($req);
         }
         $transaction = new OneGoSDK_Impl_Transaction($dto, 
-                $this->getConfig()->transactionTtl, $this->getConfig()->transactionTtlAutoRenew);
+                $dto->expiresIn, $this->getConfig()->transactionTtlAutoRenew);
         $this->setTransaction($transaction);
         return $transaction;
     }

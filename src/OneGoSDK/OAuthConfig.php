@@ -15,7 +15,7 @@ class OneGoSDK_OAuthConfig implements OneGoSDK_Interface_Config
      * @param int $connectionTimeout
      */
     public function __construct($apiKey, $apiSecret, 
-            $oAuthBaseUri = 'https://auth.onego.com/oauth2/',
+            $oAuthBaseUri = 'https://accounts.onego.com/oauth2/',
             $connectionTimeout = 0)
     {
         $this->apiKey               = $apiKey;
