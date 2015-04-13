@@ -1,4 +1,4 @@
-OneGo PHP SDK
+OneGo PHP SDK v1.0.1
 ==========
 
 [OneGo](https://onego.com) SDK for PHP provides developers with convenient wrappers for various OneGo services, such as eShop API and OAuth implementation.
